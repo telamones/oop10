@@ -14,7 +14,7 @@ protected:
     int age;
 
 public:
-    Human(string, string, string, int);
+    Human(string="", string="", string="", int=0);
     virtual void print() = 0;
     ~Human() {};
 };
